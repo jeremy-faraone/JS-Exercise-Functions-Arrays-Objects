@@ -229,7 +229,9 @@ function get3rdCar(inventory) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoByIndex(inventory, index) {
-  /* code here */
+  const make = inventory[index];
+  const model = inventory[index];
+  return `This car is a ${make.car_make} ${model.car_model}`
 }
 
 /**
